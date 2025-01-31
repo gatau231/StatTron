@@ -10,7 +10,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 config = configparser.ConfigParser()
 config.read(f"{basedir}/../../config.ini")
 
-bot = telebot.TeleBot(config["TELEGRAM"]["admin_tgbot_api_token"])
+bot = telebot.TeleBot(config["TELEGRAM"]["26689028"])
 redis = Redis(host=config["REDIS"]["host"], port=config["REDIS"]["port"])
 
 
